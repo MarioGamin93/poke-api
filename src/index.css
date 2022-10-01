@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #eee;
+  color: #333;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+}
+
+.navbar{
+  display: flex;
+  background-color: #282c34;
+  width: 100%;
+  justify-content: center;
+}
+
+.navbar ul{
+  display: flex;
+  list-style: none;
+  column-gap: 20px;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a:hover{
+  color: red;
+}
+
+.navbar .active{
+  color: red;
+  background-color: #222;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+img{
+  width: 100%;
+}
+
+.imagen{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.container-select{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  padding: 20px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-select select{
+  padding: 6px 40px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.button{
+  background-color: #333;
+  color: #fff;
+  padding: .6em 1em;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.pokemon{
+  display: flex;
+  column-gap: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #333;
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 1em;
+  padding: 40px;
+}
+
+.poke-imagen{
+  width: 400px;
+}
+
+.container-poke{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.poke-stats{
+  list-style: none;
+  padding-left: 0;
+}
+
+span{
+  font-weight: bold;
+}
+
+.poke-nombre{
+  background-color: #fff;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin: 0;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
