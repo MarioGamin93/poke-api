@@ -77,7 +77,7 @@ const Pokemones = () => {
                 );
               })}
             </select>
-            <input type="submit" value="Enviar" className="button" />
+            <input type="submit" value="Buscar" className="button" />
           </form>
         </div>
       ) : (
